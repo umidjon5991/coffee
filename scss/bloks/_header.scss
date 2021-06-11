@@ -1,5 +1,6 @@
 .header-container {
   width: 100%;
+  max-width: 1240px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,6 +25,7 @@
   display: block;
   text-decoration: none;
   padding: 0 16px;
+  color: #000;
 }
 
 .section-create {
@@ -44,7 +46,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba($color: #000000, opacity 0.1);
+    background-color: (#000000, opacity 0.1);
     flex-direction: column;
     text-align: center;
     display: block;
